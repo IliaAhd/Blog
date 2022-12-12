@@ -22,8 +22,8 @@
             <li class="nav-item "><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#home">Home</a></li>
             <li class="nav-item "><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#skills">Skills</a></li>
             <li class="nav-item "><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#projects">Projects</a></li>
-            <li class="nav-item "><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Team</a></li>
-            <li class="nav-item dropdown"><a class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" data-toggle="dropdown" href="#">Contact</a>
+            <li class="nav-item "><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#team">Team</a></li>
+            <li class="nav-item dropdown"><a class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" data-toggle="dropdown" href="#contact">Contact</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="https://github.com/IliaNoah" target="_blank">Git-Hub</a>
               </div>
@@ -43,6 +43,7 @@
       </nav>
     </header>
     <main>
+      <!-- Home section  -->
       <section id="home">
         <div class="container-fluid pt-5 pt-md-0 pt-lg-0 pt-sm-0">
           <div class="row bg-info justify-content-center align-items-center" style="height: 100vh;">
@@ -58,6 +59,7 @@
           </div>
         </div>
       </section>
+      <!-- Skills section  -->
       <section class="bg-light p-5" id="skills">
         <div class="container-fluid">
           <div class="row">
@@ -88,7 +90,8 @@
           </div>
         </div>
       </section>
-      <section class="p5" id="projects">
+      <!-- Projects section  -->
+      <section class="p-5" id="projects">
         <div class="container-fluid">
           <div class="row">
             <div class="col text-center mb-5">
@@ -124,7 +127,8 @@
           </div>
         </div>
       </section>
-      <section class="p-sm-5 p-2 bg-secondary">
+      <!-- Team section  -->
+      <section class="p-sm-5 p-5 bg-secondary" id="team">
         <div class="container-fluid">
           <div class="row">
             <div class="col text-center mb-3">
@@ -204,6 +208,81 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills section  -->
+      <section class="p-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col text-center mb-3">
+              <h1 class="text-warning display-2">Progress</h1>
+              <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quibusdam.</p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-secondary">
+              <h2>HTML</h2>
+              <div class="progress bg-secondary mb-3">
+                <div class="progress-bar bg-danger" style="width: 95%;">
+                  95%
+                </div>
+              </div>
+              <h2>CSS</h2>
+              <div class="progress bg-secondary mb-3">
+                <div class="progress-bar bg-primary" style="width: 85%;">
+                  85%
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 text-secondary">
+              <h2>JavaScript</h2>
+              <div class="progress bg-secondary mb-3">
+                <div class="progress-bar bg-warning" style="width: 10%;">
+                  10%
+                </div>
+              </div>
+              <h2>Bootstrap</h2>
+              <div class="progress bg-secondary mb-3">
+                <div class="progress-bar bg-success" style="width: 50%;">
+                  50%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section  -->
+      <section class="p-5 bg-light">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col text-center mb-5">
+              <h3 class="text-warning display-2">Contact US</h3>
+              <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum, recusandae hic dolorum odit magni, aperiam laudantium aut asperiores esse voluptates dolor autem?</p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+              <div class="text-center text-secondary">
+                <h3>Got Question</h3>
+                <p>Stay connected</p>
+              </div>
+              <form class="text-muted">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input class="form-control" type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input class="form-control" type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="comment">Comment:</label>
+                  <textarea class="form-control" name="comment" id="comment" cols="30" rows="5"></textarea>
+                </div>
+                <button class="btn btn-outline-warning btn-block" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
