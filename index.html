@@ -11,7 +11,7 @@
   <body>   
     <!-- Header & Nav   -->
     <header class="fixed-top">
-      <nav class="navbar navbar-expand-md navbar-light navbar-light bg-dark">
+      <nav class="navbar navbar-expand-md navbar-light bg-dark">
         <a class="navbar-brand" href="#">
           <img src="images/icons8-b-40.png" alt="">
         </a>
@@ -302,7 +302,7 @@
               <a href="https://github.com/ilianoah" target="_blank"><i class="fab fa-github fa-2x text-dark mx-3"></i></a>
               <a href="https://t.me/ilianoah" target="_blank"><i class="fab fa-telegram fa-2x text-dark mx-3"></i></a>
             </div>
-            <p class="text-light py-3 m-0"><sup>&copy;</sup> Copyright. 2022 - Developed by <a class="text-success" href="https://github.com/IliaNoah">Ilia</a></p>
+            <p class="text-light py-3 m-0"><sup>&copy;</sup> Copyright <span class="date">2022</span> - Developed by <a class="text-success" href="https://github.com/IliaNoah">Ilia</a></p>
           </div>
         </div>
       </div>
@@ -310,5 +310,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script>
+      const date = document.querySelector('.date');
+      date.textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
